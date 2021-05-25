@@ -1,0 +1,181 @@
+body {
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.header{
+
+  text-align: center;
+  background:white;
+  color: white;
+  font-size: 30px;
+  height: 80px;
+}
+
+
+#logo{
+  padding: 10px;
+  float: left;
+  padding-left:100px;
+}
+
+.navbar{
+  background-color:#3355aa;
+  height: 40px;
+  font: 15px;
+}
+
+#content{
+  display: flex;
+  padding-right: 50px;
+  border-radius: 5px;
+  float: right;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  position: absolute;
+ 
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+
+}
+
+.insides{
+  padding: 10px;
+}
+
+#top{
+  background-color: rgb(255, 28, 28);
+  position: relative;
+  background: tomato;
+}
+
+#card1{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  right: 550px;
+}
+
+#card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 550px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  position: absolute;
+  right: 65px;
+
+}
+
+.container-2{
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.tabs{
+  margin-left: 20px;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.srch{
+  float: right;
+  margin-right: 100px;
+}
+
+.okok{
+  height: 20px;
+  border-radius: 5px;
+}
+
+.wat{
+  font-size: 30px;
+  color: blue;
+}
+
+.wen{
+  font-size: 30px;
+  color: blue;
+  margin-top: 20px;
+}
+
+.headd{
+  font-size: 60px;
+  text-align: center;
+  margin-top: 700px;
+}
+
+#carda{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  
+}
+
+#cardb{
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  margin-left: 450px;
+}
+
+#cardc{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  margin-left: 900px;
+}
+
+#cardd{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  margin-left: 1400px;
+}
